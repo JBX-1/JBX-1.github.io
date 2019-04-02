@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    background: #f6f6f6;
+}
+
+body {
+    font: 16px/1.6 Roboto,Helvetica,sans-serif;
+    font-weight: 300;
+}
+body {
+    margin: 0;
+}
+.project-section {
+    max-width: 1400px;
+}
+.main-title {
+    line-height: 1;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+}
+h5 {
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.project-subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-transform: none;
+}
+.project-section .project-descriptions {
+    overflow: hidden;
+    margin: 1em 0;
+}
+.project-section .project-descriptions .project-description {
+    position: relative;
+}
+.project-section .project-descriptions .project-description>p:first-child, .project-section .project-descriptions .project-description>ul:first-child {
+    margin-top: 0;
+}
+.project-section .project-descriptions .project-description ul:not(.tech-icons):not(.tech-tags) {
+    padding-left: 20px;
+}
+.project-section .technologies-title {
+    margin-top: 2em;
+}
+.technologies-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #666;
+    padding-bottom: .5em;
+}
+.tech-tags, .tech-tags>li {
+    /* margin: 2; */
+    padding: 0;
+}
+.tech-tags {
+    list-style: none;
+}
+.tech-tags li {
+    display: inline-block;
+    overflow: hidden;
+}
+.project-section .project-images {
+    margin-top: 2em;
+    text-align: center;
+}
+.project-section .project-images {
+    margin-top: 2em;
+    text-align: center;
+}
+.project-section .project-image img {
+    max-width: 100%;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+img {
+    border: 0;
+}
+@media screen and (min-width: 768px) {
+.project-section .project-descriptions .project-description+.project-description {
+    padding-left: 20px;
+    border-left: 1px solid #ddd;
+}
+}
+@media screen and (min-width: 768px){
+.project-section .project-descriptions .project-description:first-child {
+    padding-right: 20px;
+}
+}
+
+@media screen and (min-width: 768px){
+.project-section .project-descriptions .project-description {
+    width: 50%;
+    float: left;
+}
+}

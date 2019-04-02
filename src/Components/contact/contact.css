@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+body {
+    background: #f6f6f6;
+}
+
+body {
+    font: 16px/1.6 Roboto,Helvetica,sans-serif;
+    font-weight: 300;
+}
+body {
+    margin: 0;
+}
+.site-main {
+    margin-left: 25%;
+}
+.site-main .site-main-inner {
+    position: relative;
+}
+.main {
+    max-width: 850px;
+    padding: 50px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 2px 5px;
+}
+/* @media screen and (min-width: 1024px){
+    .main-navigation ul li.current:after {
+        content: " ";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 9px solid transparent;
+        border-bottom: 9px solid transparent;
+        border-right: 8px solid #fff;
+        bottom: 6px;
+        left: auto;
+        right: 3;
+    }
+    }
+     */

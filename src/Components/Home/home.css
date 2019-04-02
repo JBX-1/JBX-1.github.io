@@ -1,0 +1,81 @@
+* {
+    box-sizing: inherit;
+    /* display: block; */
+}
+body {
+    background: #f6f6f6;
+    font: 16px/1.6 Roboto,Helvetica,sans-serif;
+    font-weight: 300;
+    margin: 0
+}
+
+.home-section {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: url(../Images/charlotte.jpg)top center no-repeat #bababa;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    padding-left: 110px;
+    padding-top: 130px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.6);
+    font-size: 12px;
+}
+.home-section .home-buttons .button {
+    text-transform: uppercase;
+    opacity: .8;
+    box-shadow: 1px 1px 2px rgba(226, 219, 219, 0.767);
+    margin-bottom: 1em;
+}
+
+.home-section .home-buttons {
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* @media screen and (min-width: 1024px){
+    .main-navigation ul li.current:after {
+        content: " ";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 9px solid transparent;
+        border-bottom: 9px solid transparent;
+        border-right: 8px solid rgb(211, 30, 30);
+        bottom: 6px;
+        left: auto;
+        right: 3;
+    }
+    }
+     */
