@@ -1,14 +1,14 @@
 {
-  "main.css": "/jbx-1.github.io/static/css/main.d391f873.chunk.css",
-  "main.js": "/jbx-1.github.io/static/js/main.a67adad0.chunk.js",
-  "main.js.map": "/jbx-1.github.io/static/js/main.a67adad0.chunk.js.map",
-  "runtime~main.js": "/jbx-1.github.io/static/js/runtime~main.d63bb21d.js",
-  "runtime~main.js.map": "/jbx-1.github.io/static/js/runtime~main.d63bb21d.js.map",
-  "static/js/2.6efc73d3.chunk.js": "/jbx-1.github.io/static/js/2.6efc73d3.chunk.js",
-  "static/js/2.6efc73d3.chunk.js.map": "/jbx-1.github.io/static/js/2.6efc73d3.chunk.js.map",
-  "index.html": "/jbx-1.github.io/index.html",
-  "precache-manifest.3a06a53225c8bd5925badcba308d5d8a.js": "/jbx-1.github.io/precache-manifest.3a06a53225c8bd5925badcba308d5d8a.js",
-  "service-worker.js": "/jbx-1.github.io/service-worker.js",
-  "static/css/main.d391f873.chunk.css.map": "/jbx-1.github.io/static/css/main.d391f873.chunk.css.map",
-  "static/media/logo.svg": "/jbx-1.github.io/static/media/logo.5d5d9eef.svg"
+  "main.css": "/static/css/main.5dd0641a.chunk.css",
+  "main.js": "/static/js/main.17b4f227.chunk.js",
+  "main.js.map": "/static/js/main.17b4f227.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.c5541365.js",
+  "runtime~main.js.map": "/static/js/runtime~main.c5541365.js.map",
+  "static/js/2.0dd00e19.chunk.js": "/static/js/2.0dd00e19.chunk.js",
+  "static/js/2.0dd00e19.chunk.js.map": "/static/js/2.0dd00e19.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.27e8d64b7db5da5953a141cd8cb5faf8.js": "/precache-manifest.27e8d64b7db5da5953a141cd8cb5faf8.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.5dd0641a.chunk.css.map": "/static/css/main.5dd0641a.chunk.css.map",
+  "static/media/portfolio.css": "/static/media/charlotte.fee39bc2.jpg"
 }
