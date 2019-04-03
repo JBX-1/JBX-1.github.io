@@ -35,7 +35,7 @@ class SideContacts extends Component {
                 <div>
                     <div style={inlineStyle.socialIcons}>
                         <a href="https://www.linkedin.com/in/jonathan-taylor-5a83b374/" title="linkedin: jhrefmpl">
-                            <i className="fab fa-linkedin" style={inlineStyle.socialIcons}></i>
+                            <i className="fab fa-linkedin-in" style={inlineStyle.socialIcons}></i>
                         </a>
 
                         <a href="https://github.com/JBX-1" title="github: JB-X">

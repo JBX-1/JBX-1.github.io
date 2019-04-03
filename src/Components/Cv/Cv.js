@@ -99,25 +99,25 @@ class Cv extends Component {
                         <h3 className="cv-section-title">Skills</h3>
                         <div className="cv-section-content cv-section-content--indented">
                             <ul className="cv-tech-tags tech-tags">
-                                <li><a rel="nofollow" target="_blank">React</a></li>
-                                <li><a rel="nofollow" target="_blank">JavaScript</a></li>
-                                <li><a rel="nofollow" target="_blank">Mongo DB</a></li>
-                                <li><a rel="nofollow" target="_blank">Node JS</a></li>
-                                <li><a rel="nofollow" target="_blank">Es6</a></li>
-                                <li><a rel="nofollow" target="_blank">UX</a></li>
-                                <li><a rel="nofollow" target="_blank">Heroku &amp; Firebase</a></li>
-                                <li><a rel="nofollow" target="_blank">JQuery</a></li>
-                                <li><a rel="nofollow" target="_blank">MySQL</a></li>
-                                <li><a rel="nofollow" target="_blank">Rest API</a></li>
-                                <li><a rel="nofollow" target="_blank">.NET</a></li>
-                                <li><a rel="nofollow" target="_blank">C / C++</a></li>
-                                <li><a rel="nofollow" target="_blank">Python</a></li>
-                                <li><a rel="nofollow" target="_blank">GraphQL</a></li>
-                                <li><a rel="nofollow" target="_blank">Apollo</a></li>
-                                <li><a rel="nofollow" target="_blank">Hadoop</a></li>
-                                <li><a rel="nofollow" target="_blank">Apache</a></li>
-                                <li><a rel="nofollow" target="_blank">Tech &amp; customer support</a></li>
-                                <li><a rel="nofollow" target="_blank">Problem-Solving</a></li>
+                                <li><a href="https://reactjs.org/" rel="nofollow">React</a></li>
+                                <li><a href="https://www.javascript.com/" rel="nofollow">JavaScript</a></li>
+                                <li><a href="https://www.mongodb.com/" rel="nofollow">Mongo DB</a></li>
+                                <li><a href="https://nodejs.org/en/" rel="nofollow">Node JS</a></li>
+                                <li><a href="http://es6-features.org/#Constants" rel="nofollow">Es6</a></li>
+                                <li><a href="https://uxplanet.org/ux-for-beginners/home" rel="nofollow">UX</a></li>
+                                <li><a href="https://www.heroku.com" rel="nofollow">Heroku &amp; Firebase</a></li>
+                                <li><a href="https://jquery.com/" rel="nofollow">JQuery</a></li>
+                                <li><a href="https://www.mysql.com/" rel="nofollow">MySQL</a></li>
+                                <li><a href="https://www.restapitutorial.com/" rel="nofollow">Rest API</a></li>
+                                <li><a href="https://dotnet.microsoft.com/" rel="nofollow">.NET</a></li>
+                                <li><a href="https://www.learn-c.org/" rel="nofollow">C / C++</a></li>
+                                <li><a href="https://www.python.org/" rel="nofollow">Python</a></li>
+                                <li><a href="https://graphql.org/" rel="nofollow">GraphQL</a></li>
+                                <li><a href="https://www.apollographql.com/" rel="nofollow">Apollo</a></li>
+                                <li><a href="https://hadoop.apache.org/" rel="nofollow">Hadoop</a></li>
+                                <li><a href="https://www.apache.org/" rel="nofollow">Apache</a></li>
+                                <li><a href="https://en.wikipedia.org/wiki/Customer_support" rel="nofollow">Tech &amp; customer support</a></li>
+                                <li><a href="https://en.wikipedia.org/wiki/Problem_solving" rel="nofollow">Problem-Solving</a></li>
                             </ul>
                         </div>
                     </div>
@@ -130,12 +130,15 @@ class Cv extends Component {
                                     <div className="cv-timeline-side">
                                         <div className="cv-timeline-company">University of North Carolina at Charlotte </div>
                                         <div className="cv-timeline-date">Jun, 2018 - Dec, 2018</div>
-                                        <a href="http://put.poznan.pl">put.poznan.pl</a>
+                                        <a href="http://www.uncc.edu/">UNCC</a>
                                     </div>
                                     <div className="cv-timeline-body">
                                         <div className="cv-timeline-position">Certificate from Coding Bootcamp</div>
                                         <ul>
-                                            <li>Served as a Lead on <a href="#">Team Tesla</a>, which was the name of my team in the bootcamp.</li>
+                                            <li>Served as a Lead on <a href="#">Team Tesla</a>, which was the name of my team during the bootcamp.</li>
+                                            <li>Learn front-end and back-end technologies through a dynamic full-stack curriculum, including HTML5, CSS3, JavaScript, jQuery, Bootstrap, React.js, Node.js, C#, .Net, Database Theory, Bookshelf.js, MongoDB, MySQL, Command Line, and Git.</li>
+                                            <li>Work together with your peers to tackle complex projects and get hands-on training through experiential learning opportunities with employers.</li>
+                                            <li>Receive a certificate of completion in Coding: Full Stack Web Development from UNC Charlotte Continuing Education, demonstrating your achievement to future employers.</li>
                                         </ul>
                                     </div>
                                 </div>
