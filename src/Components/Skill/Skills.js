@@ -19,7 +19,7 @@ class Skills extends Component {
 
                             <p>I am a <strong>full-stack web developer</strong> with over <strong>two years of experience</strong>.</p>
 
-                            <p>I have maintained, developed and launched <a href="/portfolio/">multiple projects</a> from scratch, carrying the development of its' back-end and front-end codebases.</p>
+                            <p>I have maintained, developed and launched <a href="/projects/">multiple projects</a> from scratch, carrying the development of its' back-end and front-end codebases.</p>
 
                             <p>My current toolset includes <span className="red">Javascript &amp; React Framework, MySQL &amp; NoSQL DB, Material UI, Node JS, Python, GraphQL, Express</span> and all the other various frameworks, libraries and technologies related to them.</p>
 
@@ -58,7 +58,7 @@ class Skills extends Component {
                                     knowledge and huge experience in many JS ecosystem, by using many libraries like React, jQuery, and whatever else was needed.
                                 </li>
                                 <li>
-                                    <strong>You can already find some of my mobile applications in <a href="/portfolio/">my portfolio</a>.</strong>
+                                    <strong>You can already find some of my mobile applications in <a href="/projects/">my portfolio</a>.</strong>
                                 </li>
                             </ul>
 

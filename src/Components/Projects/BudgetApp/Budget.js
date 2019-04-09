@@ -25,10 +25,10 @@ class Budget extends Component {
 
                                     <p>Throughout twenty six years, I've been very alert and attentive, to how and where my money is being spent. But sometimes i've gotten a little careless and forgot . Which i think every human can relate to !! So to help me out i decided to build a budget app to better help me manage that.</p>
 
-                                    <p>In summary, what we built is:</p>
+                                    <p>In summary, what i built is:</p>
 
                                     <ul>
-                                        <li>international marketplace (built in Ruby on Rails) allowing end-customers to browse tourist tours and attractions, see their schedule and prices, and book them online;</li>
+                                        <li>financial tracker app that helps you get ahead and stay ahead.</li>
                                         <li>huge single page application for Partners (built in React) to manage their finances;</li>
                                         <li>a platform for user, to manage their finances;</li>
                                         <li>management all your bills, from student loans, rent, all the way to your car notes.</li>
@@ -46,9 +46,9 @@ class Budget extends Component {
 
                                     <ul className="tech-tags">
 
-                                        <li><a href="https://reactjs.org/" rel="nofollow" target="_blank">React</a></li>
+                                        <li><a href="https://reactjs.org/" rel="nofollow">React</a></li>
 
-                                        <li><a href="https://getbootstrap.com/" rel="nofollow" target="_blank">Bootstrap</a></li>
+                                        <li><a href="https://getbootstrap.com/" rel="nofollow">Bootstrap</a></li>
                                     </ul>
 
                                 </div>
@@ -56,7 +56,7 @@ class Budget extends Component {
                             </div>
 
 
-                            <a href="/" className="button button-red">
+                            <a href="/home" className="button button-red">
                                 <i className="fa fa-external-link"></i>
                                 View online
                             </a>

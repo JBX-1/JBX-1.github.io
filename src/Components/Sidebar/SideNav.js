@@ -14,18 +14,26 @@ class SideNav extends Component {
                 fontSize: "14px",
                 texTransform: "uppercase",
                 display: "block",
-                padding: "0",
+                textAlign: "center"
             },
             socialIcon: {
                 float: "left"
             },
             ul: {
                 listStyleType: "none",
+                // padding: "100px",
+                // margin: "100p"
+
             },
             li: {
                 listStyleType: "none",
                 fontSize: "17px",
                 fontWeight: "600",
+                color: "white", 
+                margin: "20px",
+
+            },
+            aTag: {
                 color: "white"
             }
         }
@@ -35,10 +43,10 @@ class SideNav extends Component {
             <nav style={inlineStyle.mainNav}>
                 <div>
                     <ul style={inlineStyle.ul}>
-                        <li><Link to="/portfolio" style={inlineStyle.li}>Portfolio</Link></li>
-                        <li><Link to="/skills" style={inlineStyle.li}>Skills &amp; offer</Link></li>
-                        <li><Link to="/contact/" style={inlineStyle.li}>Contact me</Link></li>
-                        <li><Link to="/cv/" style={inlineStyle.li}>My CV</Link></li>
+                        <li style={inlineStyle.li}><Link to="/projects" style={inlineStyle.aTag}>Portfolio</Link></li>
+                        
+                        <li style={inlineStyle.li}><Link to="/skills" style={inlineStyle.aTag}>Skills</Link></li>
+                        <li style={inlineStyle.li}><Link to="/cv/" style={inlineStyle.aTag} target="_blank">My CV</Link></li>
                     </ul>
                 </div>
             </nav>

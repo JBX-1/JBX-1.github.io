@@ -71,7 +71,7 @@ class TodoList extends Component {
                             </div>
 
 
-                            <a href="/" className="button button-red">
+                            <a href="/home" className="button button-red">
                                 <i className="fa fa-external-link"></i>
                                 View online
                             </a>

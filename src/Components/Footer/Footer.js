@@ -11,7 +11,7 @@ class Footer extends Component {
                 width: "100%",
                 height: "60px",
                 lineHeight: "60px",
-                backgroundColor: "rgba(63, 3, 97, 0.529)",
+                backgroundColor: "rgb(153, 153, 153)",
                 display: "block",
                 color: "white"
             },

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
 import Image from '../Images/comingsoon.jpg'
 import './cv.css'
 
@@ -52,9 +53,9 @@ class Cv extends Component {
                                         <h4 className="cv-timeline-position">Full-stack Web Developer</h4>
                                         <p>Self-driven web development for remote clients.</p>
                                         <ul>
-                                            <li>Created and launched multiple web applications,front-end and back-end programming, UI/UX design, maintenance and project management. (see <a href="/">jtaylor.me/portfolio</a>)</li>
+                                            <li>Created and launched multiple web applications,front-end and back-end programming, UI/UX design, maintenance and project management. (see <Link to="/home">jtaylor.me/portfolio</Link>)</li>
                                             <li>Mentored several developers.</li>
-                                            <li>Built projects in MERN STACK. (see <a href="https://jtaylor.me/portfolio">jtaylor.me/portfolio</a>)</li>
+                                            <li>Built projects in MERN STACK. (see <Link to="/home">jtaylor.me/portfolio</Link>)</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -135,7 +136,7 @@ class Cv extends Component {
                                     <div className="cv-timeline-body">
                                         <div className="cv-timeline-position">Certificate from Coding Bootcamp</div>
                                         <ul>
-                                            <li>Served as a Lead on <a href="#">Team Tesla</a>, which was the name of my team during the bootcamp.</li>
+                                            <li>Served as a Lead on <Link href="/home">Team Tesla</Link>, which was the name of my team during the bootcamp.</li>
                                             <li>Learn front-end and back-end technologies through a dynamic full-stack curriculum, including HTML5, CSS3, JavaScript, jQuery, Bootstrap, React.js, Node.js, C#, .Net, Database Theory, Bookshelf.js, MongoDB, MySQL, Command Line, and Git.</li>
                                             <li>Work together with your peers to tackle complex projects and get hands-on training through experiential learning opportunities with employers.</li>
                                             <li>Receive a certificate of completion in Coding: Full Stack Web Development from UNC Charlotte Continuing Education, demonstrating your achievement to future employers.</li>

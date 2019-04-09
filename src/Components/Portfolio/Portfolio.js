@@ -1,8 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Sidebar from '../Sidebar/Sidebar';
-import Image from '../Images/comingsoon.jpg'
+import Image from '../Images/comingsoon.jpg';
+import SpacexImage from '../Images/spacex1.png';
 import Footer from '../Footer/Footer';
-import './portfolio.css'
+import './portfolio.css';
 
 
 
@@ -32,7 +34,7 @@ class Portfolio extends Component {
                                                 <div className="project-description">
                                                     <strong>open to co-operation on new/existing projects.</strong><br />
                                                     Looking for a full-stack dev willing to join your team?<br />
-                                                    <a href="/contact/">Contact me</a>. I will answer you in ~24 hours.
+                                                    <Link to="/contact/">Contact me</Link>. I will answer you in ~24 hours.
                                             </div>
                                             </div>
                                         </div>
@@ -44,7 +46,7 @@ class Portfolio extends Component {
 
                                         <div className="timeline_element-contents">
                                             <div className="project-text">
-                                                <a href="/portfolio/budgetapp/" className="project-link">
+                                                <a href="/budgetapp/" className="project-link">
                                                     <div className="project-title">Budget App</div>
                                                     <div className="project-subtitle"><strong>See what you’re spending, where you can save money, and track your bills:</strong></div>
                                                 </a>
@@ -56,9 +58,9 @@ class Portfolio extends Component {
                                                     </ul>
                                                 </div>
 
-                                                <a href="/portfolio/budgetapp/" className="project-readmore button button-red">
+                                                <Link to="/budgetapp/" className="project-readmore button button-red">
                                                     More details
-                                            </a>
+                                            </Link>
 
                                                 <div className="project-technologies">
                                                     <div className="technologies-title">Technologies</div>
@@ -70,9 +72,9 @@ class Portfolio extends Component {
                                                 </div>
                                             </div>
                                             <div className="project-image">
-                                                <a href="/portfolio/budgetapp/">
+                                                <Link to="/budgetapp/">
                                                     <img src={Image} alt="budgetapp" />
-                                                </a>
+                                                </Link>
                                             </div>
 
                                         </div>
@@ -85,7 +87,7 @@ class Portfolio extends Component {
 
                                         <div className="timeline_element-contents">
                                             <div className="project-text">
-                                                <a href="/portfolio/todolist/" className="project-link">
+                                                <a href="/todolist/" className="project-link">
                                                     <div className="project-title">Todolist</div>
                                                     <div className="project-subtitle">
                                                         The best way to task out your day, week, month, or even year !!
@@ -115,9 +117,9 @@ class Portfolio extends Component {
                                                     </ol>
                                                 </div>
 
-                                                <a href="/portfolio/todolist/" className="project-readmore button button-red">
+                                                <Link to="/todolist/" className="project-readmore button button-red">
                                                     More details
-                                            </a>
+                                            </Link>
 
                                                 <div className="project-technologies">
                                                     <div className="technologies-title">Technologies</div>
@@ -147,9 +149,9 @@ class Portfolio extends Component {
                                                 </div>
                                             </div>
                                             <div className="project-image">
-                                                <a href="/portfolio/todolist/">
+                                                <Link to="/todolist/">
                                                     <img src={Image} alt="todolist" />
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                     </li>
@@ -161,7 +163,7 @@ class Portfolio extends Component {
 
                                         <div className="timeline_element-contents">
                                             <div className="project-text">
-                                                <a href="/portfolio/recruitee/" className="project-link">
+                                                <a href="/qa-app/" className="project-link">
                                                     <div className="project-title">
                                                         Qa-App(Question & Answer)
                                                     </div>
@@ -190,9 +192,9 @@ class Portfolio extends Component {
                                                     </ul>
                                                 </div>
 
-                                                <a href="/portfolio/qa-app/" className="project-readmore button button-red">
+                                                <Link to="/qa-app/" className="project-readmore button button-red">
                                                     More details
-                                            </a>
+                                            </Link>
 
                                                 <div className="project-technologies">
                                                     <div className="technologies-title">Technologies</div>
@@ -214,9 +216,9 @@ class Portfolio extends Component {
 
 
                                             <div className="project-image">
-                                                <a href="/portfolio/qa-app/">
+                                                <Link to="/qa-app/">
                                                     <img src={Image} alt="qa-app" />
-                                                </a>
+                                                </Link>
                                             </div>
 
                                         </div>
@@ -229,7 +231,7 @@ class Portfolio extends Component {
 
                                         <div className="timeline_element-contents">
                                             <div className="project-text">
-                                                <a href="/portfolio/spacex/" className="project-link">
+                                                <a href="/spacex/" className="project-link">
                                                     <div className="project-title">Space X</div>
                                                     <div className="project-subtitle">Space X is a fan made app for the hardcore Space X fan who doesn’t want to miss anything.</div>
                                                 </a>
@@ -242,9 +244,9 @@ class Portfolio extends Component {
                                                     </ul>
                                                 </div>
 
-                                                <a href="/portfolio/spacex/" className="project-readmore button button-red">
+                                                <Link to="/spacex/" className="project-readmore button button-red">
                                                     More details
-                                            </a>
+                                            </Link>
 
                                                 <div className="project-technologies">
                                                     <div className="technologies-title">Technologies</div>
@@ -261,9 +263,9 @@ class Portfolio extends Component {
 
 
                                             <div className="project-image">
-                                                <a href="/portfolio/spacex/">
-                                                    <img src={Image} alt="spacex" />
-                                                </a>
+                                                <Link to="/spacex/">
+                                                    <img src={SpacexImage} alt="spacex" />
+                                                </Link>
                                             </div>
 
                                         </div>
@@ -276,7 +278,7 @@ class Portfolio extends Component {
 
                                         <div className="timeline_element-contents">
                                             <div className="project-text">
-                                                <a href="/portfolio/gulliver/" className="project-link">
+                                                <a href="/thecrimemachine/" className="project-link">
                                                     <div className="project-title">The Crime Machine</div>
                                                     <div className="project-subtitle">This is a app me and my team came up with at the CLT Hackathon, based on the data we were given</div>
                                                 </a>
@@ -296,23 +298,23 @@ class Portfolio extends Component {
 
                                                 </div>
 
-                                                <a href="/portfolio/thecrimemachine/" className="project-readmore button button-red">
+                                                <Link to="/thecrimemachine/" className="project-readmore button button-red">
                                                     More details Coming soon...
-                                             </a>
+                                             </Link>
 
                                                 <div className="project-technologies">
                                                     <div className="technologies-title">Technologies</div>
                                                     <ul className="tech-tags">
-                                                        <li><a href='#'>Coming soon...</a></li>
+                                                        <li><a href='/'>Coming soon...</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
 
 
                                             <div className="project-image">
-                                                <a href="/portfolio/thecrimemachine/">
+                                                <Link to="/thecrimemachine/">
                                                     <img src={Image} alt="thecrimemachine" />
-                                                </a>
+                                                </Link>
                                             </div>
 
                                         </div>

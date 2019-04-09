@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Home from "./Components/Home/home"
 import Portfolio from "./Components/Portfolio/Portfolio"
 import Skills from "./Components/Skill/Skills"
-import Contact from './Components/contact/Contact.js';
 import Cv from './Components/Cv/Cv.js';
 import BudgetApp from './Components/Projects/BudgetApp/Budget.js';
 import TodoList from './Components/Projects/TodoList/TodoList.js';
@@ -15,20 +14,19 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
-        <div>
+      <>
+        <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/portfolio" component={Portfolio} />
+          <Route path="/projects" component={Portfolio} />
           <Route path="/skills" component={Skills} />
-          <Route path="/contact" component={Contact} />
           <Route path="/cv" component={Cv} />
-          <Route path="/portfolio/budgetapp" component={BudgetApp} />
-          <Route path="/portfolio/todolist" component={TodoList} />
-          <Route path="/portfolio/qa-app" component={QaApp} />
-          <Route path="/portfolio/spacex" component={SpaceX} />
-          <Route path="/portfolio/thecrimemachine" component={TheCrimeMachine} />
-        </div>
-      </Router>
+          <Route path="/budgetapp" component={BudgetApp} />
+          <Route path="/todolist" component={TodoList} />
+          <Route path="/qa-app" component={QaApp} />
+          <Route path="/spacex" component={SpaceX} />
+          <Route path="/thecrimemachine" component={TheCrimeMachine} />
+        </Switch>
+      </>
 
     )
   }

@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Sidebar from '../../Sidebar/Sidebar';
-import Images from '../../Images/comingsoon.jpg'
+import Image1 from '../../Images/spacex1.png'
+import Image2 from '../../Images/spacex2.png'
+import Image3 from '../../Images/spacex3.png'
+import Image4 from '../../Images/spacex4.png'
 import './spacex.css'
 
 
@@ -29,6 +32,7 @@ class SpaceX extends Component {
                                         <li> Full notification history</li>
                                         <li>Stats section for various SpaceX stats and info</li>
                                         <li>Missions section for upcoming & past missions</li>
+                                        <li>Also need server running to display app</li>
                                     </ul>
 
                                 </div>
@@ -54,7 +58,7 @@ class SpaceX extends Component {
                             </div>
 
 
-                            <a href="/" className="button button-red">
+                            <a href="https://whispering-refuge-89276.herokuapp.com/" className="button button-red" target="_blank">
                                 <i className="fa fa-external-link"></i>
                                 View online
                             </a>
@@ -63,33 +67,14 @@ class SpaceX extends Component {
 
                             <div className="project-image">
 
-                                <img src={Images} alt="spacex" />
+                                <img src={Image1} alt="spacex" />
 
-                                <img src={Images} alt="spacex" />
+                                <img src={Image2} alt="spacex" />
 
-                                <img src={Images} alt="spacex" />
+                                <img src={Image3} alt="spacex" />
 
-                                <img src={Images} alt="spacex" />
+                                <img src={Image4} alt="spacex" />
 
-                                <img src={Images} alt="spacex" />
-
-                                <img src={Images} alt="spacex" />
-
-                                <img src={Images} alt="spacex" />
-
-                                <img src={Images} alt="spacex" />
-
-                                <img src={Images} alt="spacex" />
-
-                                <img src={Images} alt="spacex" />
-
-                                <img src={Images} alt="spacex" />
-
-                                <img src={Images} alt="spacex" />
-
-                                <img src={Images} alt="spacex" />
-
-                                <img src={Images} alt="spacex" />
 
                             </div>
 

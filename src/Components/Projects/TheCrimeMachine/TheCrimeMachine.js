@@ -42,7 +42,7 @@ class TheCrimeMachine extends Component {
                                     <h5 className="technologies-title">Technologies used</h5>
 
                                     <ul className="tech-tags">
-                                        <li><a href='/'>Coming soon....</a></li>
+                                        <li><a href='/home'>Coming soon....</a></li>
 
                                     </ul>
 
@@ -51,7 +51,7 @@ class TheCrimeMachine extends Component {
                             </div>
 
 
-                            <a href="/" className="button button-red">
+                            <a href="/home" className="button button-red">
                                 <i className="fa fa-external-link"></i>
                                 View online Coming soon...
                             </a>

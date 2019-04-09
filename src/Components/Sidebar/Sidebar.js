@@ -18,22 +18,41 @@ class Sidebar extends Component {
                 fontSize: "14px",
                 color: "#fff",
                 textAlign: "left",
-                backgroundColor: "rgba(63, 3, 97, 0.529)"
+                backgroundColor: "rgb(127, 107, 153)"
 
             },
             siteSideBarInner: {
                 position: "relative",
                 height: "100%",
                 overflowY: "auto",
-                padding: "45px 40px"
+                padding: "45px 40px",
+                textAlign: 'center',
+            },
+            image: {
+                marginTop: "100px",
+                marginRight: "100px",
+                marginBottom: "100px"
+            },
+            nav: {
+                marginRight: "75px",
+                marginBottom: "50px"
+            },
+            contact: {
+                marginRight: "25px"
             }
         }
         return (
             <aside className="site-sidebar" style={inlineStyle.siteSidebar}>
                 <div className="site-sidebar-inner" style={inlineStyle.siteSideBarInner}>
-                    <SideImage />
-                    <SideNav />
-                    <SideContacts />
+                    <div className="container" style={inlineStyle.image}>
+                        <SideImage />
+                    </div>
+                    <div style={inlineStyle.nav}>
+                        <SideNav />
+                    </div>
+                    <div style={inlineStyle.contact}>
+                        <SideContacts />
+                    </div>
                 </div>
             </aside>
         )

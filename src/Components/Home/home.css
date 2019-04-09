@@ -16,7 +16,7 @@ body {
     left: 0;
     right: 0;
     z-index: 1;
-    background: url(../Images/charlotte.jpg)top center no-repeat #bababa;
+    /* background: linear-gradient(10deg,rgba(0, 0, 0, 0.7),rgba(255, 255, 255, 0.9)),url(../Images/charlotte.jpg)top center no-repeat #bababa; */
     background-size: cover;
     -webkit-font-smoothing: antialiased;
     color: #fff;
@@ -30,6 +30,7 @@ body {
     opacity: .8;
     box-shadow: 1px 1px 2px rgba(226, 219, 219, 0.767);
     margin-bottom: 1em;
+    /* background-color: rgb(124, 107, 153) */
 }
 
 .home-section .home-buttons {

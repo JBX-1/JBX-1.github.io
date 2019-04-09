@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
 import Sidebar from '../Sidebar/Sidebar';
 import './home.css'
 // import Background from '../Images/img_2.jpg'
@@ -13,13 +12,16 @@ class Home extends Component {
         const inlineStyle = {
             siteMain: {
                 marginLeft: "25%",
-                position: "relative"
+                position: "relative",
             },
             siteMainInner: {
-                position: "relative"
+                position: "relative",
             },
             homeSectionInner: {
-                marginLeft: "25%"
+                marginLeft: "25%",
+                color: "black",
+                marginTop: "150px"
+
             },
             homeHeading: {
                 fontSize: "4em",
@@ -28,24 +30,12 @@ class Home extends Component {
             homeSubheading: {
                 fontSize: "3em",
                 fontWeight: "300",
-                textTranform: "none"
+                textTranform: "none",
+                textAlign: 'center',
             },
-            homeButton: {
-                marginTop: "3.25em",
-                overflow: "hidden",
-                fontSize: "2em",
-            },
-            homeButtonText: {
-                // backgroundColor: "rgba(63, 3, 97, 0.529)",
-                fontWeight: "400",
-                display: "inline - block",
-                padding: ".4em .8em",
-                lineHeight: "1",
-                marginRight: "1em",
-                backgroundColor: "rgba(255, 255, 255, 0.602)",
-                borderWidth: "3px",
-                borderStyle: "solid",
-                color: "teal"
+            mark: {
+                backgroundColor: "rgb(127, 107, 153)",
+                color: "white"
             }
             // mainSection: {
             //     position: "relative",
@@ -73,17 +63,11 @@ class Home extends Component {
                         <div className="home-section" style={inlineStyle.mainSection}>
                             <div style={inlineStyle.homeSectionInner}>
                                 <div style={inlineStyle.homeHeading}>
-                                    Welcome, I'm Jonathan
-                                 </div>
-                                <div style={inlineStyle.homeSubheading}>
-                                    <p> Full-STACK Software Engineer</p>
-                                    <br />
-                                    Front-End & Back-End Web Development
-                                </div>
-                                <div className="home-buttons" style={inlineStyle.homeButton}>
-                                    <Link to="/portfolio/" className="button button-outline button-white" style={inlineStyle.homeButtonText}>Portfolio</Link>
-                                    <br />
-                                    <Link to="/skills" className="button button-outline button-white" style={inlineStyle.homeButtonText}>Skills &amp; offer</Link>
+                                    Welcome, <mark style={inlineStyle.mark}> I'm Jonathan</mark>
+                                    <br/>
+                                    <div>a <mark style={inlineStyle.mark}> Full-STACK Software Engineer </mark></div>
+                                    <div>doing Frontend & Backend</div>
+                                    <div>Development</div>
                                 </div>
                             </div>
                         </div>
