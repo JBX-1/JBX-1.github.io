@@ -25,7 +25,7 @@ class SideImage extends Component {
             },
         }
         return(
-            <Link to="/" style={inlineStyle.img}>
+            <Link to="/home" style={inlineStyle.img}>
             <div style={inlineStyle.personAvatar}>
                 <img src={Image} style={inlineStyle.avatar} alt="avatar"/>
             </div>
