@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, HashRouter } from 'react-router-dom';
 import Home from "./Components/Home/home"
 import Portfolio from "./Components/Portfolio/Portfolio"
 import Skills from "./Components/Skill/Skills"
@@ -14,7 +14,7 @@ class App extends Component {
 
   render() {
     return (
-      <>
+      <HashRouter>
         <Switch>
           <Route exact path="/home" component={Home} />
           <Route path="/projects" component={Portfolio} />
@@ -26,7 +26,7 @@ class App extends Component {
           <Route path="/spacex" component={SpaceX} />
           <Route path="/thecrimemachine" component={TheCrimeMachine} />
         </Switch>
-      </>
+      </HashRouter>
 
     )
   }
