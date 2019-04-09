@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
-import Image from '../Images/comingsoon.jpg'
+import Image from '../Images/2-large.jpg'
 import './cv.css'
 
 
