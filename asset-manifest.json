@@ -1,19 +1,20 @@
 {
-  "main.css": "/portfolio/static/css/main.1395cfc4.chunk.css",
-  "main.js": "/portfolio/static/js/main.f92dec35.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.f92dec35.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.1e5b7942.chunk.css",
+  "main.js": "/portfolio/static/js/main.2990be14.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.2990be14.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.784d01ab.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.784d01ab.js.map",
-  "static/js/2.a4d0ec24.chunk.js": "/portfolio/static/js/2.a4d0ec24.chunk.js",
-  "static/js/2.a4d0ec24.chunk.js.map": "/portfolio/static/js/2.a4d0ec24.chunk.js.map",
+  "static/js/2.e7a1e594.chunk.js": "/portfolio/static/js/2.e7a1e594.chunk.js",
+  "static/js/2.e7a1e594.chunk.js.map": "/portfolio/static/js/2.e7a1e594.chunk.js.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.2ad111f2a04a30aee44ed260b129c780.js": "/portfolio/precache-manifest.2ad111f2a04a30aee44ed260b129c780.js",
+  "precache-manifest.c9d60e93ca4cd30ad6781c8862664817.js": "/portfolio/precache-manifest.c9d60e93ca4cd30ad6781c8862664817.js",
   "service-worker.js": "/portfolio/service-worker.js",
-  "static/css/main.1395cfc4.chunk.css.map": "/portfolio/static/css/main.1395cfc4.chunk.css.map",
+  "static/css/main.1e5b7942.chunk.css.map": "/portfolio/static/css/main.1e5b7942.chunk.css.map",
   "static/media/2-large.jpg": "/portfolio/static/media/2-large.1dbd2b72.jpg",
   "static/media/portfolio.css": "/portfolio/static/media/charlotte.fee39bc2.jpg",
   "static/media/spacex1.png": "/portfolio/static/media/spacex1.58c2f743.png",
   "static/media/spacex2.png": "/portfolio/static/media/spacex2.795884ad.png",
   "static/media/spacex3.png": "/portfolio/static/media/spacex3.8294e874.png",
-  "static/media/spacex4.png": "/portfolio/static/media/spacex4.f6c61760.png"
+  "static/media/spacex4.png": "/portfolio/static/media/spacex4.f6c61760.png",
+  "static/media/thecrimemachine.png": "/portfolio/static/media/thecrimemachine.dbdb630b.png"
 }
