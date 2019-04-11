@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/thecrimemachine.dbdb630b.png"
   },
   {
-    "revision": "632e142c1d17df6685e2",
+    "revision": "713bcec6aeafebd26972",
     "url": "/portfolio/static/css/main.1e5b7942.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/spacex1.58c2f743.png"
   },
   {
-    "revision": "632e142c1d17df6685e2",
-    "url": "/portfolio/static/js/main.2990be14.chunk.js"
+    "revision": "713bcec6aeafebd26972",
+    "url": "/portfolio/static/js/main.8f02e979.chunk.js"
   },
   {
     "revision": "795884adaab58521b2242553a31a7956",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/charlotte.fee39bc2.jpg"
   },
   {
-    "revision": "bfdee9981d021d780d5df6ea37dd4e53",
+    "revision": "6e6582e4c3851f4bfa40e1b9deb724f0",
     "url": "/portfolio/index.html"
   }
 ];
