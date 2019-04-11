@@ -4,6 +4,7 @@ import Sidebar from '../Sidebar/Sidebar';
 import Image from '../Images/comingsoon.jpg';
 import SpacexImage from '../Images/spacex1.png';
 import TheCrimeMachineImage from '../Images/thecrimemachine.png';
+import TodoListImage from '../Images/todolist1.png';
 import Footer from '../Footer/Footer';
 import './portfolio.css';
 
@@ -151,7 +152,7 @@ class Portfolio extends Component {
                                             </div>
                                             <div className="project-image">
                                                 <Link to="/todolist/">
-                                                    <img src={Image} alt="todolist" />
+                                                    <img src={TodoListImage} alt="todolist" />
                                                 </Link>
                                             </div>
                                         </div>

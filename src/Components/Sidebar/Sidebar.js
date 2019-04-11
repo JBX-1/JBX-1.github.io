@@ -35,7 +35,7 @@ class Sidebar extends Component {
             },
             nav: {
                 marginRight: "75px",
-                marginBottom: "25px"
+                marginBottom: "2px"
             },
             contact: {
                 marginRight: "25px"

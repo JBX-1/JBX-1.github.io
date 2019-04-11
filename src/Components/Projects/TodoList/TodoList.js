@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Sidebar from '../../Sidebar/Sidebar';
-import Images from '../../Images/comingsoon.jpg'
+import Image1 from '../../Images/todolist1.png'
+import Image2 from '../../Images/todolist2.png'
+import Image3 from '../../Images/todolist3.png'
+import Image4 from '../../Images/todolist4.png'
 import './todolist.css'
 
 
@@ -80,33 +83,13 @@ class TodoList extends Component {
 
                             <div className="project-image">
 
-                                <img src={Images} alt="TodoList" />
+                                <img src={Image1} alt="TodoList" />
 
-                                <img src={Images} alt="TodoList" />
+                                <img src={Image2} alt="TodoList" />
 
-                                <img src={Images} alt="TodoList" />
+                                <img src={Image3} alt="TodoList" />
 
-                                <img src={Images} alt="TodoList" />
-
-                                <img src={Images} alt="TodoList" />
-
-                                <img src={Images} alt="TodoList" />
-
-                                <img src={Images} alt="TodoList" />
-
-                                <img src={Images} alt="TodoList" />
-
-                                <img src={Images} alt="TodoList" />
-
-                                <img src={Images} alt="TodoList" />
-
-                                <img src={Images} alt="TodoList" />
-
-                                <img src={Images} alt="TodoList" />
-
-                                <img src={Images} alt="TodoList" />
-
-                                <img src={Images} alt="TodoList" />
+                                <img src={Image4} alt="TodoList" />
 
                             </div>
 
