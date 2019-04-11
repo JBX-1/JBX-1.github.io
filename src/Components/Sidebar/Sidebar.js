@@ -29,13 +29,13 @@ class Sidebar extends Component {
                 textAlign: 'center',
             },
             image: {
-                marginTop: "100px",
-                marginRight: "100px",
-                marginBottom: "100px"
+                marginTop: "50px",
+                marginRight: "55px",
+                marginBottom: "55px"
             },
             nav: {
                 marginRight: "75px",
-                marginBottom: "50px"
+                marginBottom: "25px"
             },
             contact: {
                 marginRight: "25px"

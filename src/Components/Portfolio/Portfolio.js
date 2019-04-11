@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Sidebar from '../Sidebar/Sidebar';
 import Image from '../Images/comingsoon.jpg';
 import SpacexImage from '../Images/spacex1.png';
+import TheCrimeMachineImage from '../Images/thecrimemachine.png';
 import Footer from '../Footer/Footer';
 import './portfolio.css';
 
@@ -313,7 +314,7 @@ class Portfolio extends Component {
 
                                             <div className="project-image">
                                                 <Link to="/thecrimemachine/">
-                                                    <img src={Image} alt="thecrimemachine" />
+                                                    <img src={TheCrimeMachineImage} alt="thecrimemachine" />
                                                 </Link>
                                             </div>
 

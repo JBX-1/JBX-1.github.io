@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Image from '../Images/2-large.jpg'
 import './cv.css'
 
@@ -21,8 +21,8 @@ class Cv extends Component {
                                 Self-motivated software engineer with two years experience developing MERN STACK. Fluent in Javascript-and other Object-Oriented Programming languages. Really enjoy all aspects of Programming, launching and teaching others.<br />
                                 <br />
                                 <strong>Willing to relocate to: Australia, New Zealand, Europe, Asia, South America, Kraków, Spain, or can work remotely.</strong><br />
-                                
-                  </div>
+
+                            </div>
                         </div>
                         <div className="cv-header-meta">
                             <div className="cv-header-meta-right">
