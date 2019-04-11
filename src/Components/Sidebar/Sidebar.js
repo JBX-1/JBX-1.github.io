@@ -29,7 +29,7 @@ class Sidebar extends Component {
                 textAlign: 'center',
             },
             image: {
-                marginTop: "50px",
+                marginTop: "5px",
                 marginRight: "55px",
                 marginBottom: "55px"
             },

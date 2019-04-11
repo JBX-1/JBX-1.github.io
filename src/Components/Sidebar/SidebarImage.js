@@ -19,7 +19,7 @@ class SideImage extends Component {
                 marginBottom: "10px"
             },
             avatar: {
-                width: "300px",
+                width: "250px",
                 height: "350px",
                 borderRadius: "50%", 
             },
