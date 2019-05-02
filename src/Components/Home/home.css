@@ -1,6 +1,6 @@
 * {
-    box-sizing: inherit;
-    /* display: block; */
+    box-sizing: border-box;
+    /* display: grid */
 }
 body {
     background: #f6f6f6;
@@ -8,7 +8,21 @@ body {
     font-weight: 300;
     margin: 0
 }
+mark {
+    background-color: rgb(127,107,153);
+    color:white
+}
+.main {
+    /* display: grid; */
+}
 
+.site-main {
+    margin-left: 25%;
+    position: relative;
+}
+.site-main-inner {
+    position: relative
+}
 .home-section {
     position: fixed;
     top: 0;
@@ -24,59 +38,68 @@ body {
     padding-top: 130px;
     text-shadow: 1px 1px 2px rgba(0,0,0,.6);
     font-size: 12px;
+    /* display: grid; */
+    max-width: 1400px;
+
 }
-.home-section .home-buttons .button {
-    text-transform: uppercase;
-    opacity: .8;
-    box-shadow: 1px 1px 2px rgba(226, 219, 219, 0.767);
-    margin-bottom: 1em;
-    /* background-color: rgb(124, 107, 153) */
+.home-section-inner {
+    margin-left: 25%;
+    color: black;
+    margin-top: 150px;
 }
 
-.home-section .home-buttons {
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s; /* Firefox < 16 */
-     -ms-animation: fadein 2s; /* Internet Explorer */
-      -o-animation: fadein 2s; /* Opera < 12.1 */
-         animation: fadein 2s;
-}
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+.home-section-heading {
+    font-size: 4em;
+    font-weight: 500;
 }
 
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-/* @media screen and (min-width: 1024px){
-    .main-navigation ul li.current:after {
-        content: " ";
-        display: block;
+@media screen and (max-width:1024px) {
+   
+    .site-main {
+        margin: 0 auto;
+        position: relative;
+        /* margin-top:20%; */
+        margin-right: auto;
+        padding: 30px 20px;
+        right: 20%;
+        /* bottom: 30%; */
+        width: auto;
+    }
+    .home-section-heading {
+        /* background-color: red; */
+        margin: 0 auto;
+        margin-right: 5% ;
+        right: 2px;
+        /* position: relative; */
         position: absolute;
-        width: 0;
-        height: 0;
-        border-top: 9px solid transparent;
-        border-bottom: 9px solid transparent;
-        border-right: 8px solid rgb(211, 30, 30);
-        bottom: 6px;
-        left: auto;
-        right: 3;
+        width: 100%;
+        /* margin-top: 20%; */
     }
+}
+
+/* @media screen and (max-width:1023px) {
+    .sidebar-container {
+        width: auto;
+        background-color: red;
     }
-     */
+    .site-main {
+        margin: 0 auto;
+        position: relative;
+        margin-top:40%;
+        margin-right: auto;
+        padding: 30px 20px;
+        right: 30%;
+        bottom: 30%;
+        width: 85%;
+    }
+    .home-section-heading {
+        background-color: red;
+        margin: 0 auto;
+        margin-right: 50% ;
+        position: relative;
+        position: absolute;
+        width: auto;
+        margin-top: 40%;
+    }
+}
+ */

@@ -7,18 +7,18 @@ import { Link } from 'react-router-dom';
 class SideNav extends Component {
     render() {
         const inlineStyle = {
-            mainNav: {
-                margin: "45px -40px",
-                lineHeight: "30px",
-                position: "relative",
-                fontSize: "14px",
-                texTransform: "uppercase",
-                display: "block",
-                textAlign: "center"
-            },
-            socialIcon: {
-                float: "left"
-            },
+            // mainNav: {
+            //     margin: "45px -40px",
+            //     lineHeight: "30px",
+            //     position: "relative",
+            //     fontSize: "14px",
+            //     texTransform: "uppercase",
+            //     display: "block",
+            //     textAlign: "center"
+            // },
+            // socialIcon: {
+            //     float: "left"
+            // },
             ul: {
                 listStyleType: "none",
                 // padding: "100px",
@@ -40,7 +40,7 @@ class SideNav extends Component {
 
         return (
 
-            <nav style={inlineStyle.mainNav}>
+            <nav className= "block main-navigation">
                 <div>
                     <ul style={inlineStyle.ul}>
                         <li style={inlineStyle.li}><Link to="/projects" style={inlineStyle.aTag}>Portfolio</Link></li>
