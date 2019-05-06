@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4f7c2bf99b0daf451f7515c1b929f3de",
-    "url": "/portfolio/static/media/todolist2.4f7c2bf9.png"
+    "revision": "dbdb630b9f462ef38fbf2d0d4b40f8b1",
+    "url": "/portfolio/static/media/thecrimemachine.dbdb630b.png"
   },
   {
-    "revision": "f314cdfc91584702e949",
-    "url": "/portfolio/static/css/main.0f5e9f73.chunk.css"
+    "revision": "73c62e13a1e6e2609ff1",
+    "url": "/portfolio/static/css/main.156c8dbd.chunk.css"
   },
   {
     "revision": "0fad4c0f10d57b530fe4",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/todolist1.2fd706ac.png"
   },
   {
-    "revision": "dbdb630b9f462ef38fbf2d0d4b40f8b1",
-    "url": "/portfolio/static/media/thecrimemachine.dbdb630b.png"
+    "revision": "73c62e13a1e6e2609ff1",
+    "url": "/portfolio/static/js/main.1eafaca1.chunk.js"
   },
   {
-    "revision": "f314cdfc91584702e949",
-    "url": "/portfolio/static/js/main.cdde6eb3.chunk.js"
+    "revision": "4f7c2bf99b0daf451f7515c1b929f3de",
+    "url": "/portfolio/static/media/todolist2.4f7c2bf9.png"
   },
   {
     "revision": "6503e08e11ce0f771f6c6409bc715b82",
@@ -56,11 +56,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/spacex4.f6c61760.png"
   },
   {
-    "revision": "fee39bc24ad6dde832c3dccb7a34358b",
-    "url": "/portfolio/static/media/charlotte.fee39bc2.jpg"
-  },
-  {
-    "revision": "0313be65976e415285465cf555c87870",
+    "revision": "502d6f5adcb47d96b815c409879b8a70",
     "url": "/portfolio/index.html"
   }
 ];
