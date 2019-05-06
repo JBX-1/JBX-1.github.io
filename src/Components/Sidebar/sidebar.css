@@ -1,4 +1,5 @@
 /* SIDE BAR */
+
 #site-sidebar {
     top: 0;
     bottom: 0;
@@ -10,8 +11,9 @@
     font-size: 14px;
     color: #fff;
     text-align: left;
-    background-color: rgb(127,107,153);
+    background-color: rgb(127, 107, 153);
 }
+
 #site-sidebar-inner {
     position: relative;
     height: 100%;
@@ -19,6 +21,7 @@
     padding: 45px 40px;
     text-align: center;
 }
+
 .site-sidebar .site-sidebar-inner {
     position: relative;
     height: 100%;
@@ -27,6 +30,7 @@
     -ms-overflow-style: -ms-autohiding-scrollbar;
     padding: 45px 40px
 }
+
 #site-sidebar-inner-image {
     margin-top: 5px;
     margin-right: 55px;
@@ -34,10 +38,12 @@
 }
 
 /* SIDE BAR INNER NAV */
+
 #site-sidebar-inner-nav {
     margin-right: 75px;
     margin-bottom: 2px;
 }
+
 .main-navigation {
     margin: "45px -40px";
     line-height: "30px";
@@ -47,10 +53,13 @@
     display: "block";
     text-align: "center";
 }
+
 .social-icons {
     float: left;
 }
+
 /* SideBar Contact */
+
 #site-sidebar-inner-contact {
     margin-right: 25px
 }
@@ -62,7 +71,7 @@
     }
 } */
 
-@media screen and (max-width:1023px) {
+@media screen and (max-width:1024px) {
     #site-sidebar {
         top: auto;
         bottom: auto;
@@ -89,7 +98,7 @@
     }
 }
 
- /* @media screen and (max-width:1023px) {
+/* @media screen and (max-width:1023px) {
     .site-sidebar {
         top: auto;
         bottom: auto;
@@ -111,11 +120,12 @@
         right: -50px;
         content: " ";
         display: block;
-        width: auto;
+        width: 100%;
         height: 850px;
     }
-  }
-  @media screen and (max-width:375px) {
+}
+
+/* @media screen and (max-width:375px) {
     #site-sidebar {
         top: auto;
         bottom: auto;
@@ -140,4 +150,4 @@
     #site-sidebar:before {
         display: none
     }
-}
+} */

@@ -190,9 +190,9 @@ strong {
     font-size: 13px;
     text-transform: uppercase;
 }
-@media screen and (min-width: 768px){
-.cv-timeline-company {
-    background-color: #eee;
+@media screen and (max-width: 1024px){
+.cv-page {
+    /* background-color: #eee; */
     padding: 3px 7px;
     margin-bottom: 5px;
     border-radius: 2px;

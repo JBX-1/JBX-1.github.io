@@ -17,7 +17,7 @@ class Portfolio extends Component {
         return (
             <>
                 <Sidebar />
-                <div className="site-main">
+                <div className="site-main" id="portfolio-main">
                     <div className="site-main-inner">
                         <div className="main-section portfolio-section">
                             <h1 className="main-title">Portfolio</h1>

@@ -142,3 +142,71 @@ hr {
 img {
     border: 0;
 }
+
+@media screen and (max-width: 400px) {
+    .site-main-inner {
+        width: fit-content;
+        margin: -15px;
+    }
+    .offer-section{
+        /* background-color: red; */
+        width: fit-content;
+        margin: -15px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .site-main-inner {
+        width: fit-content;
+    }
+    .offer-section{
+        /* background-color: red; */
+        width: fit-content;
+        margin: -15px;
+    }
+}
+@media screen and (max-width: 768px){
+    .site-main {
+        width: fit-content;
+    }
+    .offer-section {
+        /* position: absolute; */
+        /* margin-top: 5px; */
+        /* bottom: 0; */
+        /* left: 0; */
+        /* right:2px; */
+        /* content: " "; */
+        /* display: block; */
+        width: fit-content;
+        /* background-color: red; */
+        /* height: 850px; */
+        /* margin: -4%; */
+        right: 20%;
+    }
+    .site-main-inner {
+        width: fit-content;
+    }
+    
+    }
+@media screen and (max-width: 1024px){
+    .site-main {
+        width: 100%;
+    }
+    .offer-section {
+        /* position: absolute; */
+        /* margin-top: 5px; */
+        /* bottom: 0; */
+        /* left: 0; */
+        right:2px;
+        /* content: " "; */
+        /* display: block; */
+        width: fit-content;
+        /* background-color: red; */
+        /* height: 850px; */
+        /* margin: -4%; */
+        right: 20%;
+    }
+    .site-main-inner {
+        width: fit-content;
+    }
+    
+    }
