@@ -12,6 +12,13 @@ body {
 body {
     margin: 0;
 }
+.project-main {
+    margin-left: 25%;
+    position: relative;
+}
+.project-main-inner {
+    position: relative
+}
 .project-section {
     max-width: 1400px;
 }
@@ -105,4 +112,27 @@ img {
     width: 50%;
     float: left;
 }
+}
+@media screen and (max-width:1024px) {
+   
+    .project-main {
+        margin: 0 auto;
+        position: relative;
+        /* margin-top:20%; */
+        margin-right: auto;
+        padding: 30px 20px;
+        /* right: 20%; */
+        /* bottom: 30%; */
+        width: fit-content;
+    }
+    .home-section-heading {
+        /* background-color: red; */
+        margin: 0 auto;
+        margin-right: 5% ;
+        right: 2px;
+        /* position: relative; */
+        position: absolute;
+        width: 100%;
+        /* margin-top: 20%; */
+    }
 }

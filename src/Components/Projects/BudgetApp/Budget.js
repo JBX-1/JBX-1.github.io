@@ -12,8 +12,8 @@ class Budget extends Component {
         return (
             <>
                 <Sidebar />
-                <div className="site-main">
-                    <div className="site-main-inner">
+                <div className="project-main">
+                    <div className="project-main-inner">
                         <div className="main-section project-section">
                             <h1 className="main-title">Budget App</h1>
                             <h2 className="project-subtitle"><strong>See what you’re spending, where you can save money, and track your bills:</strong></h2>

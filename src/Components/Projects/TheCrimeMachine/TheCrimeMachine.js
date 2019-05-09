@@ -12,8 +12,8 @@ class TheCrimeMachine extends Component {
         return (
             <>
                 <Sidebar />
-                <div className="site-main">
-                    <div className="site-main-inner">
+                <div className="project-main">
+                    <div className="project-main-inner">
                         <div className="main-section project-section">
                             <h1 className="main-title">The Crime Machine</h1>
                             <h2 className="project-subtitle"><strong>This is a app me and my team came up with at the CLT Hackathon, based on the data we were given!!</strong></h2>

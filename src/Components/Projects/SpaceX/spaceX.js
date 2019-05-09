@@ -15,8 +15,8 @@ class SpaceX extends Component {
         return (
             <>
                 <Sidebar />
-                <div className="site-main">
-                    <div className="site-main-inner">
+                <div className="project-main">
+                    <div className="project-main-inner">
                         <div className="main-section project-section">
                             <h1 className="main-title">SpaceX</h1>
                             <h2 className="project-subtitle"><strong>Space X is a fan made app for the hardcore Space X fan who doesn’t want to miss anything !!</strong></h2>

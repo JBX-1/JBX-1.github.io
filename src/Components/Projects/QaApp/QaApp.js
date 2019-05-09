@@ -12,8 +12,8 @@ class QaApp extends Component {
         return (
             <>
                 <Sidebar />
-                <div className="site-main">
-                    <div className="site-main-inner">
+                <div className="project-main">
+                    <div className="project-main-inner">
                         <div className="main-section project-section">
                             <h1 className="main-title">Qa-App(Question & Answer)</h1>
                             <h2 className="project-subtitle"><strong>The best way to task out your day, week, month, or even year !!</strong></h2>
