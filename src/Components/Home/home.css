@@ -63,7 +63,7 @@ mark {
         padding: 30px 20px;
         right: 20%;
         /* bottom: 30%; */
-        width: auto;
+        width: fit-content;
     }
     .home-section-heading {
         /* background-color: red; */

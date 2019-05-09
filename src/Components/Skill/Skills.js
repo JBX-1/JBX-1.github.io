@@ -12,8 +12,8 @@ class Skills extends Component {
         return (
             <>
                 <Sidebar />
-                < div className="site-main" >
-                    <div className="site-main-inner">
+                < div className="skills-main" >
+                    <div className="skills-main-inner" id="skills-main">
                         <div className="main-section offer-section">
                             <h1 className="main-title">Skills &amp; offer</h1>
 

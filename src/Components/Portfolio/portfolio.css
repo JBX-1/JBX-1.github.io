@@ -341,9 +341,12 @@ img {
     }
 }
 @media screen and (max-width: 500px) {
+    .site-main-inner {
+        margin-right: 15%;
+    }
     .portfolio-timeline>ul>li {
         /* background-color: red; */
-        right: 35%;
+        right: 28%;
         width:fit-content;
         
     }
@@ -363,7 +366,7 @@ img {
     .project-image img {
         max-width: 100%;
         max-height: 50%;
-        color: red;
+        /* color: red; */
     }
     .project-description {
         /* display: flex; */
