@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/thecrimemachine.dbdb630b.png"
   },
   {
-    "revision": "73c62e13a1e6e2609ff1",
-    "url": "/portfolio/static/css/main.156c8dbd.chunk.css"
+    "revision": "7ee468c80a662574c06b",
+    "url": "/portfolio/static/css/main.d753434a.chunk.css"
   },
   {
     "revision": "0fad4c0f10d57b530fe4",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/todolist1.2fd706ac.png"
   },
   {
-    "revision": "73c62e13a1e6e2609ff1",
-    "url": "/portfolio/static/js/main.1eafaca1.chunk.js"
+    "revision": "7ee468c80a662574c06b",
+    "url": "/portfolio/static/js/main.d2c54e0a.chunk.js"
   },
   {
     "revision": "4f7c2bf99b0daf451f7515c1b929f3de",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/spacex4.f6c61760.png"
   },
   {
-    "revision": "502d6f5adcb47d96b815c409879b8a70",
+    "revision": "38a30306d81688b37d1fba6775ba59d8",
     "url": "/portfolio/index.html"
   }
 ];
