@@ -157,6 +157,7 @@ img {
 @media screen and (max-width: 500px) {
     .skills-main {
         width: fit-content;
+        left: 2%;
     }
     .offer-section{
         /* background-color: red; */
@@ -165,6 +166,7 @@ img {
     }
     .skills-main-inner {
         width: fit-content;
+        text-align: center;
         /* left: -25%; */
     }
 }

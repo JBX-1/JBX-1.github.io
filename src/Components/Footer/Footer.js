@@ -13,10 +13,11 @@ class Footer extends Component {
                 lineHeight: "60px",
                 backgroundColor: "rgb(153, 153, 153)",
                 display: "block",
-                color: "white"
+                color: "white",
+                textAlign: "center"
             },
             text: {
-                color: "white"
+                color: "white",
             }
         }
         return(
