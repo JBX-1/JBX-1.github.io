@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "dbdb630b9f462ef38fbf2d0d4b40f8b1",
-    "url": "/portfolio/static/media/thecrimemachine.dbdb630b.png"
+    "revision": "4f7c2bf99b0daf451f7515c1b929f3de",
+    "url": "/portfolio/static/media/todolist2.4f7c2bf9.png"
   },
   {
-    "revision": "28d52e1fdec66cf2973f",
-    "url": "/portfolio/static/css/main.3f2956ae.chunk.css"
+    "revision": "5bd1cef7730e4fbd8b7c",
+    "url": "/portfolio/static/css/main.4ca52c3f.chunk.css"
   },
   {
     "revision": "0fad4c0f10d57b530fe4",
     "url": "/portfolio/static/js/runtime~main.784d01ab.js"
   },
   {
-    "revision": "295399e67f74ed5baa10",
-    "url": "/portfolio/static/js/2.3f0fbed1.chunk.js"
-  },
-  {
-    "revision": "1dbd2b72124fd8e202ae595104899f85",
-    "url": "/portfolio/static/media/2-large.1dbd2b72.jpg"
+    "revision": "441bd8080f1df93cdcfa",
+    "url": "/portfolio/static/js/2.9f6f4e5a.chunk.js"
   },
   {
     "revision": "58c2f7439492511e1d3d25128439092b",
@@ -28,12 +24,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/todolist1.2fd706ac.png"
   },
   {
-    "revision": "28d52e1fdec66cf2973f",
-    "url": "/portfolio/static/js/main.3bce570b.chunk.js"
+    "revision": "dbdb630b9f462ef38fbf2d0d4b40f8b1",
+    "url": "/portfolio/static/media/thecrimemachine.dbdb630b.png"
   },
   {
-    "revision": "4f7c2bf99b0daf451f7515c1b929f3de",
-    "url": "/portfolio/static/media/todolist2.4f7c2bf9.png"
+    "revision": "5bd1cef7730e4fbd8b7c",
+    "url": "/portfolio/static/js/main.b0a9ebfa.chunk.js"
   },
   {
     "revision": "6503e08e11ce0f771f6c6409bc715b82",
@@ -56,7 +52,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/spacex4.f6c61760.png"
   },
   {
-    "revision": "c995ab48653f8ec36c22b28d10f2a12f",
+    "revision": "f48392c2607882e92b7b3fb41727f847",
     "url": "/portfolio/index.html"
   }
 ];
